@@ -1,0 +1,10 @@
+Download origins of files, as of 1 Sept, 2011.  Please read the GEOIP_DATA_LICENSE.
+
+http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
+http://geolite.maxmind.com/download/geoip/database/GeoIPv6.dat.gz
+http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+
+http://geoip.cvs.sourceforge.net/viewvc/geoip/c/regioncode/fips10_4.txt
+http://geoip.cvs.sourceforge.net/viewvc/geoip/c/regioncode/iso3166_2.txt
+(The following needed patching in the last 3 lines to replace spaces with tab-separators.)
+http://www.maxmind.com/timezone.txt

@@ -1,0 +1,5 @@
+*~
+_build
+dat/GeoIPCity.dat
+lib/geoip_regions.ml
+lib/geoip_timezones.ml

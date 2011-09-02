@@ -1,0 +1,4 @@
+- Support for IPv6
+- Support for non-free editions of MaxMind GeoIP data
+- Profiling and optimization
+

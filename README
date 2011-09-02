@@ -1,0 +1,3 @@
+OCaml API to the free/open GeoLite databases from MaxMind.
+
+This product includes GeoLite data created by MaxMind, available from http://www.maxmind.com/.

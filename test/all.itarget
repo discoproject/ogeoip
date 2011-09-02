@@ -1,0 +1,4 @@
+geoip_test.native
+geoip_test.byte
+benchmark.byte
+benchmark.native
