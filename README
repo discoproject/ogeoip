@@ -1,3 +1,8 @@
 OCaml API to the free/open GeoLite databases from MaxMind.
 
+The functions in the API are named after the corresponding ones in the
+C library API from MaxMind, available at
+http://www.maxmind.com/app/c
+
+
 This product includes GeoLite data created by MaxMind, available from http://www.maxmind.com/.
