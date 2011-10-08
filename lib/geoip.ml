@@ -136,6 +136,8 @@ let sTATE_BEGIN_REV0 = 16700000
 let sTATE_BEGIN_REV1 = 16000000
 let sTRUCTURE_INFO_MAX_SIZE = 20
 
+let edition g = g.edition
+
 let is_valid_edition int =
   (* 0 is not a known edition *)
   int > 0 && int < Array.length edition_info

@@ -19,7 +19,6 @@
 (**************************************************************************)
 
 module G  = Geoip
-module GC = Geoip_city
 
 let test_ips = Array.of_list ["24.24.24.24"; "80.24.24.80"; "200.24.24.40"; "68.24.24.46"]
 
@@ -63,7 +62,7 @@ let test_city datdir iters filename =
   let num_ips = Array.length test_ips in
   timer_start ();
   for i = 0 to iters do
-    if GC.record_by_name g test_ips.(i mod num_ips) = None then begin
+    if G.record_by_name g test_ips.(i mod num_ips) = None then begin
       Printf.printf "Unable to lookup %s\n" test_ips.(i mod num_ips);
       exit 1
     end

@@ -61,6 +61,8 @@ type charset = Charset_ISO8859_1 | Charset_UTF8
 type geoip
 (** The type for a handle to an opened GeoIP database. *)
 
+val edition : geoip -> edition
+
 val geoip_open : string -> geoip
 (** [geoip_open file_name] returns a handle to the GeoIP database in
     the specified file. *)
