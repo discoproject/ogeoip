@@ -1,0 +1,5 @@
+description = "OCaml library to read GeoIP database files from MaxMind"
+version = "0.1.0"
+requires = "unix bigarray"
+archive(byte) = "geoip.cma"
+archive(native) = "geoip.cmxa"
